@@ -11,11 +11,27 @@
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
-                      
+
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{-- {{ __('You are logged in!') }} --}}
+                    <div class="admin-section">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4> Manager </h4>
+                                <a href=""> <i class="fa-sharp fa-solid fa-people-roof"></i> </a>
+                            </div>
+                            <div class="col-md-4">
+                                <h4> Casher </h4>
+                              <a href="">   <i class="fa-sharp fa-solid fa-cash-register"></i>   </a>
+                            </div>
+                            <div class="col-md-4">
+                                <h4> Report </h4>
+                               <a href=""> <i class="fa-sharp fa-solid fa-hotel"></i> </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
