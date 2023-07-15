@@ -19,8 +19,8 @@
                     <div class="admin-section">
                         <div class="row">
                             <div class="col-md-4">
-                                <h4> Manager </h4>
-                                <a href=""> <i class="fa-sharp fa-solid fa-people-roof"></i> </a>
+                                <h4> Management </h4>
+                                <a href="{{ route('management.index') }}"> <i class="fa-sharp fa-solid fa-people-roof"></i> </a>
                             </div>
                             <div class="col-md-4">
                                 <h4> Casher </h4>
